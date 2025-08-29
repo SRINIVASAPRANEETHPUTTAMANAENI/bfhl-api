@@ -17,7 +17,7 @@ function alternatingCapsReverse(alphabets) {
   return result;
 }
 
-app.post("/bfhl", (req, res) => {
+app.post("/bhfl", (req, res) => {
   try {
     const { data } = req.body;
     if (!data || !Array.isArray(data)) {
